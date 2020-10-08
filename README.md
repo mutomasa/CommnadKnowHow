@@ -6,7 +6,7 @@
 - substitute.md 置換系のコマンド
 - resource.md  リソース調査のコマンド
 - retrieve.md  抽出系のコマンド　主に awk,sed,cut,sort,uniq
-- file.md      ファイル操作系のコマンドhtop
+- file.md      ファイル操作系のコマンド
 
 ## 有名なコマンドのファイルリスト
 - htop.md
