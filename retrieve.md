@@ -8,3 +8,6 @@ ps  | awk  'NR>1{print $1}'
 
 ### ディスクの空き容量　sortでフィールド指定　
 df | sort -k 2rn
+
+### sedの範囲指定を使って、ログを抽出　
+cat /var/log/apache2/access_log | sed -n '/02\/May\/2014:22/,/02\/May\/2014:23/p
